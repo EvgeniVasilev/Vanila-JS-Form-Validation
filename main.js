@@ -1,5 +1,5 @@
 function validateForm() {
-    var e_mailValid = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2, })+$/,
+    var e_mailValid = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,})+$/,
         is_string = /^[A-z-Z-a \-\.\?!_]+$/;
     var para = document.getElementsByTagName('p'),
         email = document.getElementById('email'),
